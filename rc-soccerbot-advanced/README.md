@@ -1,8 +1,29 @@
-# rc_direct_drive
-Radio controller receiver is directly connected to the MCU.
+# RC Soccer Bot Advanced
 
-System descryption:
+Arduino-based RC soccer bot firmware with direct PPM receiver input and IBT-2 / BTS7960 motor-driver control.
 
-Motor Driver: IBT2 aka BTS 7960
+## Hardware Mapping
 
-Receiver: Crossfire nano rx v2, conncetion method: PPM
+- PPM receiver input on digital pin `2`
+- Right motor driver pins: `6` and `5`
+- Left motor driver pins: `10` and `9`
+
+## Control Logic
+
+- Reads `8` PPM channels through `PPMReader`
+- Uses channel `3` for lateral demand
+- Uses channel `1` for rotation demand
+- Uses channel `5` as the arm/disarm threshold
+- Mixes lateral and rotation inputs into left and right motor demand values
+- Stops both motors when the arm condition is not met
+
+## Project Files
+
+- `rc-soccerbot.ino` - main Arduino sketch
+- `Motor.h` / `Motor.cpp` - IBT-2 motor-driver wrapper
+- `PPMReader.h` / `PPMReader.cpp` - PPM input reader
+- `rc-soccerbot.rar` - archived project file
+
+## Build
+
+Open `rc-soccerbot.ino` in the Arduino IDE, compile with the bundled source files, and upload to the target controller board.
