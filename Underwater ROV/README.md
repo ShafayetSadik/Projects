@@ -21,6 +21,10 @@ This project is an underwater ROV design developed for the Underwater Vehicle De
 
 ![Underwater ROV Photo 2](0f3f29dd-6ead-41b9-b59d-c03fc752d8b1.jpeg)
 
+### Certificate
+
+![Certificate](462556561_404793702704632_1982158015429233951_n.png)
+
 ### Videos
 
 [uVDC Project Video](uVDC%20Project.mp4)
@@ -33,6 +37,7 @@ This project is an underwater ROV design developed for the Underwater Vehicle De
 
 - `0f3f29dd-6ead-41b9-b59d-c03fc752d8b1.jpeg`
 - `449476060_910721907766780_5549375018678518378_n.jpg`
+- `462556561_404793702704632_1982158015429233951_n.png`
 - `README.md`
 - `uVDC Project.mp4`
 - `underwaterROV presentation.pdf`
