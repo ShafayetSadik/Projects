@@ -1,6 +1,6 @@
 # 8:1 Analog Multiplexer Circuit
 
-VLSI design project for an 8:1 analog multiplexer circuit.
+8:1 analog multiplexer circuit for VLSI Design Project 
 
 ## Preview
 
