@@ -4,7 +4,7 @@
 
 This project is an underwater ROV design developed for the Underwater Vehicle Design Competition organized by IIT Guwahati, India. The work focused on the electrical design of the ROV, including motor selection, power calculation, communication system design, and onboard computer design.
 
-## Components Used
+## I Was Responsible For
 
 - Electrical design
 - Motor selection
