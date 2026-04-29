@@ -22,6 +22,14 @@ Arduino-based aquarium automation project that combines sensing, local display, 
 - `gsmMotorfinal.ino` - GSM motor-control sketch
 - `Automated Aquarium_Project Report_200021221,200021227,200021236,200021240,200021248.pdf` - final report
 
+## Preview Images
+
+![Preview image 1](PXL_20231129_202214511.jpg)
+
+![Preview image 2](PXL_20231201_031929403.jpg)
+
+![Preview image 3](PXL_20231201_032122995.jpg)
+
 ## Build
 
 Install the required Arduino libraries:
