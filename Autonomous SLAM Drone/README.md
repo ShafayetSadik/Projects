@@ -4,10 +4,6 @@
 
 Autonomous SLAM Drone is a GPS-assisted aerial robotics project built around real-time depth sensing, RGB-D SLAM, 3D mapping, state estimation, waypoint navigation, obstacle avoidance, simulation, and telemetry. The drone uses an Intel RealSense D435 stereo depth camera, Raspberry Pi companion computer, ROS 2, Pixhawk flight controller, and optical flow sensing as core parts of the system.
 
-The project focuses on mapping, localization, navigation, and flight monitoring. It does not include onboard object detection, YOLO detection, ArUco tracking, or visual-servo target approach.
-
-Key planned and integrated software capabilities include:
-
 - Real-time 3D point cloud generation from Intel RealSense D435 depth frames
 - RGB-D SLAM with RTAB-Map for real-time 3D occupancy map building
 - Loop closure detection to reduce pose drift during longer missions
@@ -58,6 +54,11 @@ Key planned and integrated software capabilities include:
 
 ### Videos
 
-[Flight demo video](./PXL_20240329_210226425.mp4)
-
-[Drone test video](./Messenger_creation_1949600B-1008-463A-A4D5-041C8CE3E035.mp4)
+<p>
+  <a href="./PXL_20240329_210226425.mp4">
+    <img src="./assets/flight-demo-preview.jpg" alt="Flight demo video preview" width="520">
+  </a>
+  <a href="./Messenger_creation_1949600B-1008-463A-A4D5-041C8CE3E035.mp4">
+    <img src="./assets/messenger-demo-preview.jpg" alt="Drone test video preview" width="320">
+  </a>
+</p>
